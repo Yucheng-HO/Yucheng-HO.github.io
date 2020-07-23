@@ -173,97 +173,10 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="Markdown-初学"><a href="#Markdown-初学" class="headerlink" title="Markdown 初学"></a>Markdown 初学</h1><p><strong>Hexo推荐的标记语言是Markdown,自然要学习一下如何使用才能写博客。说不定学完也能编写萌娘百科</strong></p>
-<p>Markdown据说是可以转化为HTML页面，未来或许会采取更加美观的格式。</p>
-<p>Markdown文件后缀为”.md”（妈的），我是在Webstorm上进行编写。</p>
-<h2 id="字符相关"><a href="#字符相关" class="headerlink" title="字符相关"></a>字符相关</h2><h1 id="title-H1"><a href="#title-H1" class="headerlink" title="title H1"></a>title H1</h1><h2 id="title-H2"><a href="#title-H2" class="headerlink" title="title H2"></a>title H2</h2><h3 id="title-H3"><a href="#title-H3" class="headerlink" title="title H3"></a>title H3</h3><h4 id="title-H4"><a href="#title-H4" class="headerlink" title="title H4"></a>title H4</h4><h3 id="字符效果和横线等"><a href="#字符效果和横线等" class="headerlink" title="字符效果和横线等"></a>字符效果和横线等</h3><hr>
-<p><del>删除线</del> <s>删除线</s></p>
-<p><em>斜体字</em>  _斜体字_</p>
-<p><strong>粗体字</strong>  <strong>粗体字</strong></p>
-<p>上标：X<sub>2</sub>, 下标 O<sup>2</sup></p>
-<p><strong>缩写</strong></p>
-<blockquote>
-<p>当鼠标移至相应位置时，会出现解释或全拼</p>
-</blockquote>
-<p>Markdown中使用 <abbr title="Hyper Text Markup Language"> HTML</abbr> 相关语法倒是没有问题。</p>
-<h3 id="引用-Blockquotes"><a href="#引用-Blockquotes" class="headerlink" title="引用 Blockquotes"></a>引用 Blockquotes</h3><blockquote>
-<p>引用文本 Blockquotes</p>
-</blockquote>
-<p>引用行内混合 Blockquotes</p>
-<blockquote>
-<p>引用：如果想要插入空白换行<code>即&lt;br /&gt;标签</code>,在插入出先键入两个以上的空格然后回车即可，<a href="https://www.baidu.com/" target="_blank" rel="noopener">百度</a>。</p>
-</blockquote>
-<h3 id="锚点与链接-Links"><a href="#锚点与链接-Links" class="headerlink" title="锚点与链接 Links"></a>锚点与链接 Links</h3><p><a href="https://lab.magiconch.com/nbnhhsh/" target="_blank" rel="noopener">你能不能好好说话</a></p>
-<p><a href="https://youtube.com/" target="_blank" rel="noopener" title="有一说一，还没B站好看，里面某些人更是恶心">油管</a><br><a href="https://bilibili.com/" target="_blank" rel="noopener">https://bilibili.com/</a></p>
-<p><a href="https://google.com/" target="_blank" rel="noopener">锚点链接</a></p>
-<blockquote>
-<p>我的邮箱</p>
-</blockquote>
-<p>yuc803437@gmail.com</p>
-<h3 id="多语言代码高亮-Codes"><a href="#多语言代码高亮-Codes" class="headerlink" title="多语言代码高亮 Codes"></a>多语言代码高亮 Codes</h3><h4 id="行内代码-Inline-code"><a href="#行内代码-Inline-code" class="headerlink" title="行内代码 Inline code"></a>行内代码 Inline code</h4><h4 id="缩进风格"><a href="#缩进风格" class="headerlink" title="缩进风格"></a>缩进风格</h4><p>即缩进四个空格。</p>
-<pre><code>&lt;?php
-    echo &quot;hello world!&quot;;
-?&gt;
-</code></pre><p>预格式化文本：</p>
-<pre><code>| First | Second |
-</code></pre><p>[========]</p>
-<h4 id="JS代码"><a href="#JS代码" class="headerlink" title="JS代码"></a>JS代码</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"hello world"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="HTML代码"><a href="#HTML代码" class="headerlink" title="HTML代码"></a>HTML代码</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    test</span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h3 id="图片Images"><a href="#图片Images" class="headerlink" title="图片Images"></a>图片Images</h3><p>图片+链接</p>
-<p><img src="https://i0.hdslb.com/bfs/album/6553a35fb93fc993329dd512e73027de728f5d3c.png@518w_1e_1c.png" alt="圣人惠，我老婆" title="圣人惠"></p>
-<blockquote>
-<p>follow you heart.</p>
-</blockquote>
-<hr>
-<h3 id="列表-Lists"><a href="#列表-Lists" class="headerlink" title="列表 Lists"></a>列表 Lists</h3><h4 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h4><blockquote>
-<p>减号</p>
-<ul>
-<li>列表一</li>
-<li>列表二</li>
-<li>列表三<br>乘号</li>
-</ul>
-<ul>
-<li>列表二</li>
-<li>列表二</li>
-<li>列表三<br>加号嵌套</li>
-</ul>
-<ul>
-<li>列表一</li>
-<li>列表二<ul>
-<li>列表二-1<ul>
-<li>列表二-1-1</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<h4 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h4><ol>
-<li>第一行</li>
-<li>第二行</li>
-<li>第三行</li>
-</ol>
-<h4 id="GFM"><a href="#GFM" class="headerlink" title="GFM"></a>GFM</h4><ul>
-<li>[X] List 1</li>
-<li>[ ] List 2</li>
-</ul>
-<hr>
-<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><div class="table-container">
-<table>
-<thead>
-<tr>
-<th>语言</th>
-<th>难度</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>c/c++</td>
-<td>emmm</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h3 id="科学公式-TeX"><a href="#科学公式-TeX" class="headerlink" title="科学公式 TeX"></a>科学公式 TeX</h3><script type="math/tex; mode=display">E=mc^2</script>
+<p>Markdown据说是可以转化为HTML页面，未来或许会采取更加美观的格式。<br>
+        
+          <a class="article-more-a" href="/2020/07/23/text-1/#more">more >></a>
+        
       
 
       
